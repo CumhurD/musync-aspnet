@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace musync_web.Pages
 {
-    public class AboutModel : PageModel
+    public class IntegrationsModel : PageModel
     {
         public string Message { get; set; }
 
