@@ -12,7 +12,7 @@ namespace musync_web.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "You can display or edit your integrations from here.";
         }
     }
 }
