@@ -1,7 +1,10 @@
-<h1>Counter</h1>
+<h1>Connected Accounts</h1>
 
-<p>This is a simple example of an Angular component.</p>
-
-<p>Current count: <strong>{{ currentCount }}</strong></p>
-
-<button (click)="incrementCounter()">Increment</button>
+<a class="login-button" role="button" (click)="connectSpotify();" *ngIf="!token">
+    <img src="/images/spotify.png"/>
+    Login with Spotify
+</a>  
+<span *ngIf="token" class="login-button">
+    <img src="/images/spotify.png"/>
+    Token: {{token}}
+</span>
