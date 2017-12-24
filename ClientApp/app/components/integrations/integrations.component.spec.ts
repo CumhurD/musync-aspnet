@@ -1,14 +1,14 @@
 /// <reference path="../../../../node_modules/@types/jasmine/index.d.ts" />
 import { assert } from 'chai';
-import { CounterComponent } from './counter.component';
+import { IntegrationsComponent } from './integrations.component';
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 
-let fixture: ComponentFixture<CounterComponent>;
+let fixture: ComponentFixture<IntegrationsComponent>;
 
 describe('Counter component', () => {
     beforeEach(() => {
-        TestBed.configureTestingModule({ declarations: [CounterComponent] });
-        fixture = TestBed.createComponent(CounterComponent);
+        TestBed.configureTestingModule({ declarations: [IntegrationsComponent] });
+        fixture = TestBed.createComponent(IntegrationsComponent);
         fixture.detectChanges();
     });
 
